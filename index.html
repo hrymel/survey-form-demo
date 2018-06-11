@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Survey Form - Forked from FCC's Test Suit</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <script src="https://gitcdn.link/repo/freeCodeCamp/testable-projects-fcc/master/build/bundle.js"></script>
+
+<html lang="en">
+<head>
+  
+  <!--  Meta  -->
+  <meta charset="UTF-8" />
+  <title>FreeCodeCamp Survery Project</title>
+  
+  <!--  Styles  -->
+  <link rel="stylesheet" href="styles/index.processed.css">
+</head>
+<body>
+  <h1 id="title">Survey Page</h1>
+  
+  <form id="survey-form">
+    <p id="description">This is a description for this survey form. This is a project for FreeCodeCamp. Onwards to the stuff. </p>
+    <label for="name" id="name-label">*Name: </label>
+    <input type="text" id="name" placeholder="Name" required><br />
+    <label for="age" id="number-label">Age: </label>
+    <input type="number" id="number" placeholder="Age" min="0" max="100"><br />
+    <label for="email" id="email-label" required>*E-mail: </label> <input type="email" id="email" placeholder="E-mail address" required><br />
+    <label for="phoneNumber">Number:</label> <input type="tel" id="phone" placeholder="Phone Number"> <br />
+    <label for="gender">Gender: </label><br />
+      <input type="radio" name="gender" value="male" checked> Male
+      <input type="radio" name="gender" value="female"> Female
+    <input type="radio" name="gender" value="other"> Other <br/>
+    <label for="country" >Country:</label> 
+    <select name="Countries" id="dropdown">
+      <option value="us">United States</option>
+      <option value="uk">United Kingdom</option>
+      <option value="canada">Canada</option>
+      <option value="mexico">Mexico</option>
+      <option value="other">Other</option>
+     </select> <br />
+    <label for="diet" id="diet-label">Dietary Restrictions:</label><br />
+      <input type="checkbox" name="vegetarian" value="vegetarian" checked> Vegetarian
+      <input type="checkbox" name="dairy" value="dairy"> Dairy Free
+    <input type="checkbox" name="nutFree" value="nutFree"> Nut Free <br/>
+    <br /><label for="AdditionalComments" id="comment-label">Additional Comments:</label><br />
+    <textarea name="AdditionalComments" value="Please add additional comments here." rows="4" cols="75">Please add additional comments here.  </textarea> <br />
+     <input type="submit" id="submit" value="Submit">
+  </form>  
+  <!-- Scripts -->
+  <script src="scripts/index.js"></script>
+</body>
+</html>
+  <script src='https://gitcdn.link/repo/freeCodeCamp/testable-projects-fcc/master/build/bundle.js'></script>
+
+  
+
+</body>
+
+</html>

@@ -1,0 +1,54 @@
+body {
+  background: #c08497;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+h1 {
+  font-color: #493843;
+  text-align: center;
+}
+
+#survey-form {
+  background: #e7cfcd;
+  border-radius: 8px;
+  width: 75%;
+  clear: both;
+  padding: 20px;
+  margin: auto;
+  font-size: 16px;
+}
+
+label {
+  float: left;
+  width: 150px;
+  text-align: right;
+  font-weight: bold;
+  margin: 8px;
+}
+
+input,
+select {
+  margin: 8px;
+  font-size: 16px;
+  padding: 4px;
+  background: white;
+  width: 40%;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  width: 5%;
+}
+
+textarea {
+  margin: 8px;
+  padding: 4px;
+  width: 40%;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+input[type="button"] {
+  margin: 8px;
+  font-size: 24px;
+}
